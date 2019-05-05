@@ -1,12 +1,17 @@
 <template>
-  <div></div>
+  <div>
+    <iframe
+      class="map-container"
+      src="https://www.google.com/maps/d/embed?mid=1mtHsMcQ3DxAAGU3gKVgslfIsO6Uxv8IZ"
+      width="640"
+      height="480"
+    ></iframe>
+  </div>
 </template>
 
 <script>
-import countries from "@/../mockData/countries.js";
-
 export default {
-  name: "PlaceForm",
+  name: "TheMap",
   props: {},
   data: function() {
     return {};
@@ -14,4 +19,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.map-container {
+  height: 50vh;
+  width: 100vw;
+}
+</style>

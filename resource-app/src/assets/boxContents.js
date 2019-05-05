@@ -1,3 +1,22 @@
 export default {
-  contents: ["hygene", "food", "first aid"]
+  contents: [
+    {
+      name: "Tampons"
+    },
+    {
+      name: "Pads"
+    },
+    {
+      name: "Panty Liners"
+    },
+    {
+      name: "Menstrual Cups"
+    },
+    {
+      name: "Soft Cups"
+    },
+    {
+      name: "Menstrual Sponges"
+    }
+  ]
 };
